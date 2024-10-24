@@ -1,26 +1,9 @@
 import Image from "next/image";
-import Player from "./components/Player";
-import PlayerCss from "./components/PlayerCss";
-import { sources } from "next/dist/compiled/webpack/webpack";
 
 export default function Home() {
-  const videoJsOptions={
-    techOrder:['youtube'],
-    autoplay:true,
-    controls:true,
-    sources:[
-      {
-        src:"https://youtu.be/hR8_Ey7l3as?si=6z9IJCD42oYFdxwE",
-        type:"video/youtube"
-      }
-    ]
-  }
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-
-        <Player {...videoJsOptions}/>
-        <PlayerCss/>
         <Image
           className="dark:invert"
           src="https://nextjs.org/icons/next.svg"
@@ -37,7 +20,7 @@ export default function Home() {
             </code>
             .
           </li>
-          <li>Save and see your changes instantlywwww.</li>
+          <li>w.</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
