@@ -22,7 +22,7 @@ export default function Player(props) {
 
     return (
         <div>
-            <h1>Video Player</h1>
+            <h1>Video Player start</h1>
             <div data-vjs-player>
                 <video height={500} ref={onVideo} className='video-js' playsInline />
             </div>
